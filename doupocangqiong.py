@@ -7,7 +7,8 @@ headers = {
                   'Safari/537.36'
     }
 
-f = open('douban.txt','a+')
+f = open('douban.txt', 'a+')
+
 
 def get_info(url):
     res = requests.get(url, headers=headers)
